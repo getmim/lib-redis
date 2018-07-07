@@ -30,13 +30,12 @@ return [
         		[
         			'name' => [
                         'question' => 'New redis connection name',
-                        'rule'     => '!^.+$!'
+                        'rule'     => 'any'
                     ],
                     'children' => [
                         [
                             'name' => 'socket',
                             'question' => 'Connection socket',
-                            'default' => '127.0.0.1',
                             'rule' => 'any'
                         ],
                         [
