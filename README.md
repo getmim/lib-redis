@@ -12,7 +12,7 @@ mim app install lib-redis
 
 ## konfigurasi
 
-Module ini membutuhkan konfigurasi tambahan pada level aplikasi sebagai berikuta:
+Module ini membutuhkan konfigurasi tambahan pada level aplikasi sebagai berikut:
 
 ```php
 return [
